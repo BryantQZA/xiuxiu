@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import "./usage/fragment/yo-header.scss";
+
+div.m_details{
+    height: 100%;
+    overflow: hidden;
+    @include flexbox();
+    @include flex-direction(column);
+    section{
+        height: 100%;
+        @include  flex();
+    }
+}
